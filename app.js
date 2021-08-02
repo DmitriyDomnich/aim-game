@@ -49,7 +49,7 @@ function startGame() {
 
 function finishGame() {
     timeEl.parentElement.classList.add('hide');
-    gameBoard.innerHTML = `<h1>You scored <span class='primary'>${score}</span>!</h1>`;
+    gameBoard.innerHTML = `<h1>Счет:<span class='primary'> ${score}</span></h1>`;
     restartBtn.style.opacity = '1';
     restartBtn.removeAttribute('disabled');
 }
